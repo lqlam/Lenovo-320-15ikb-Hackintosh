@@ -8,29 +8,37 @@ Goal of this repo is to run Mac os (and Windows dual) on Lenovo Ideapad 320-15IK
 ### Hardware Status
 
 Type | Spec | Status | Solution
----------|:---------:|----------:|----------
+---------|:---------|:----------:|----------
 Computer		| Lenovo Ideapad 320-15IBK 81GB   | :white_check_mark: |
 BIOS Version	| LENOVO 6JCN33WW | :white_check_mark: |
 CPU				| Intel Core i5-8250U @ 1.60GHz | :white_check_mark: | 
 Graphics		| Intel® UHD Graphics 620 | :white_check_mark: |
 Audio			| Realtek ALC230 (audio layout 13) | :white_check_mark: |
 Ethernet		| RTL8111/8168/8411 | :white_check_mark: |
-WiFi			| Realtek RTL8821CE | :x: |
-Bluetooth		| Realtek | :x: |
-Touchpad		| ELAN | :x: |
+WiFi			| Realtek RTL8821CE | :x: | Replace with Intel card
+Bluetooth		| Realtek | :x: | Replace with Intel card
+Touchpad		| ELAN | :x: | Use USB Mouse
 Keyboard		| HID | Working |
 Battery		|   ? | Working |
 
 :white_check_mark:
-
-## Software Status
-
-Type | Spec | Status
----------|:---------:|:----------:
-Battery Status		| - | Working
-Brightness		| - | Working
-Sleep/Hibernate		| - | ~~Weird issue~~ [Working](https://www.tonymacx86.com/threads/hackintosh-lags-after-wake-from-sleep.276096/)!
-Trackpad		| - | Weird issue
+- [x] CPU power management.
+- [x] Graphics acceleration and Brightness.
+- [x] Battery status.
+- [x] Keyboard.
+- [ ] Trackpad.
+- [x] Wi-Fi.
+- [x] Bluetooth.
+- [x] USB ports.
+- [ ] HDMI video & audio output.
+- [x] Ethernet.
+- [x] Audio (Internal speakers, 3.5mm headphone jack).
+- [x] Internal microphone.
+- [x] VGA WebCam.
+- [ ] AirDrop & Handoff.
+- [x] iCloud & App Store.
+- [x] iMessage & FaceTime.
+- [x] Sleep/Hibernate
 
 ## Modifications
 
