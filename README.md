@@ -26,21 +26,25 @@ Battery		|   ? | Working |
 - [x] Graphics acceleration and Brightness.
 - [x] Battery status.
 - [x] Keyboard.
-- [ ] Trackpad.
 - [x] Wi-Fi.
 - [x] Bluetooth.
 - [x] USB ports.
-- [ ] HDMI video & audio output.
 - [x] Ethernet.
 - [x] Audio (Internal speakers, 3.5mm headphone jack).
 - [x] Internal microphone.
 - [x] VGA WebCam.
-- [ ] AirDrop & Handoff.
 - [x] iCloud & App Store.
 - [x] iMessage & FaceTime.
 - [x] Sleep/Hibernate
 
-## BIOS setup
+### :x: No working
+- [ ] Trackpad.
+- [ ] HDMI video & audio output.
+- [ ] AirDrop & Handoff.
+- [ ] Battery drains.
+
+
+## BIOS setup required
 
 - Configuration / Sata Controlller Mode: AHCI
 - Security / Intel Platform Trust Technology: Disabled
