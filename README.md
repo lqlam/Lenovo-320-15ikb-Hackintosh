@@ -1,26 +1,27 @@
 # Hackintosh EFI for Lenovo IdeaPad 320-15IKB (81BG)
 Goal of this repo is to run Mac os (and Windows dual) on Lenovo Ideapad 320-15IKB Laptop
 
-
+<img src="/Screen Shot 2023-06-02 at 21.31.35.png">
 
 ## About this Laptop
 
 ### Hardware Status
 
-Type | Spec | Status | Link
+Type | Spec | Status | Solution
 ---------|:---------:|----------:|----------
-Computer		| Lenovo Ideapad 320-15IBK 81GB   | Working | -
-BIOS Version	| LENOVO 6JCN33WW | Working | -
-CPU				| Intel Core i5-8250U @ 1.60GHz | Working | [Intel](https://ark.intel.com/content/www/us/en/ark/products/124967/intel-core-i5-8250u-processor-6m-cache-up-to-3-40-ghz.html)
-Chipset			| Intel ID5914 | Working | -
-Graphics		| Intel® UHD Graphics 620 | Working | - 
-Audio			| Realtek ALC230 (audio layout 20) | Working | - 
-Ethernet		| RTL8111/8168/8411 | Working | -
-WiFi			| Qualcomm Atheros QCA9377 | Not Working | -
-Bluetooth		| Qualcomm Atheros QCA9377 | Working | -
-Touchpad		| Name	Mouse compatible con HID SYNA | Working | -
-Keyboard		| Teclado PS/2 estándar / Dispositivo de teclado HID | Working | -
-Battery		|   ? | Working | -
+Computer		| Lenovo Ideapad 320-15IBK 81GB   | :white_check_mark: |
+BIOS Version	| LENOVO 6JCN33WW | :white_check_mark: |
+CPU				| Intel Core i5-8250U @ 1.60GHz | :white_check_mark: | 
+Graphics		| Intel® UHD Graphics 620 | :white_check_mark: |
+Audio			| Realtek ALC230 (audio layout 13) | :white_check_mark: |
+Ethernet		| RTL8111/8168/8411 | :white_check_mark: |
+WiFi			| Realtek RTL8821CE | :x: |
+Bluetooth		| Realtek | :x: |
+Touchpad		| ELAN | :x: |
+Keyboard		| HID | Working |
+Battery		|   ? | Working |
+
+:white_check_mark:
 
 ## Software Status
 
