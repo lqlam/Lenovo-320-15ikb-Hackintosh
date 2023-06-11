@@ -11,7 +11,7 @@ Type | Spec | Status | Solution
 ---------|:---------|:----------:|----------
 Computer		| Lenovo Ideapad 320-15IBK 81GB   | :white_check_mark: |
 BIOS Version	| LENOVO 6JCN33WW | :white_check_mark: |
-CPU				| Intel Core i5-8250U @ 1.60GHz | :white_check_mark: | 
+CPU				| Intel Core i5-8250U (Kaby Lake R) | :white_check_mark: | 
 Graphics		| Intel® UHD Graphics 620 | :white_check_mark: |
 Audio			| Realtek ALC230 (audio layout 13) | :white_check_mark: |
 Ethernet		| RTL8111/8168/8411 | :white_check_mark: |
